@@ -2,16 +2,22 @@ import java.lang.Math;
 
 public class Point {
 
+    private double x, y;
 
-    double x;
-    double y;
+    Point() {
+        x = 0;
+        y = 0;
+    }
+    Point(double X, double Y){
+        x = X;
+        y = Y;
+    }
 
-    public double distanceFromOrigin(Point o){
+    public double distanceFromOrigin(){
         //initialise result
         double result;
         //calculation
-        result = Math.sqrt(((this.x - o.x)*(this.x - o.x))+((this.y - o.y)*(this.y - o.y)));
-
+        result = Math.sqrt((this.x*this.x)+(this.y*this.y));
         return result;
     }
 
@@ -20,8 +26,6 @@ public class Point {
         String str = "("+this.x+" ,"+this.y+") ";
         return str;
     }
-
-
 
 
 }
