@@ -23,9 +23,16 @@ public class Point {
 
     public String toString(){
         //initialise string
-        String str = "("+this.x+" ,"+this.y+") ";
+        String str = "("+String.format("%4.2f", x)+" ,"+String.format("%4.2f", y)+") ";
         return str;
     }
 
+    double getX(){
+        return x;
+    }
+
+    double getY(){
+        return y;
+    }
 
 }
