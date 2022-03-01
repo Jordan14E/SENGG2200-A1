@@ -25,8 +25,8 @@ public class Polygon {
         double result = 0;
 
         //loop for summation
-        for(int i=0; i<numVertices-2; i++){
-            result+= (vertices[i+1].getX() + vertices[i].getX())*(vertices[i+1].getY()-vertices[i].getY());
+        for(int i=0, a=1; i<numVertices-2; i++, a++){
+            result+= (vertices[a].getX() + vertices[i].getX())*(vertices[a].getY()-vertices[i].getY());
         }
 
         //absolute value (sqrt() and multiply by itself)
@@ -39,6 +39,22 @@ public class Polygon {
         return result;
     }
 
+    public Point closestToOrigin(){
 
+        //grab first
+        Point holder = vertices[0];
+
+
+
+        for(int i=1; i<numVertices; i++){
+            //compare holder's distance from main to array distance from main
+            //if smaller reassign holder
+            if(holder.distanceFromOrigin()>vertices[i].distanceFromOrigin()){
+                holder = vertices[i];
+            }
+        }
+
+        return holder;
+    }
 
 }
