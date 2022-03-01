@@ -1,5 +1,5 @@
 public class Node {
-    private Point obj;
+    private Polygon obj;
     private Node next;
     private Node previous;
 
@@ -9,7 +9,7 @@ public class Node {
         previous = null;
     }
 
-    Node(Point data){
+    Node(Polygon data){
         obj = data;
         next = null;
         previous = null;
@@ -23,7 +23,7 @@ public class Node {
         return previous;
     }
 
-    public Point getObj() {
+    public Polygon getObj() {
         return obj;
     }
 
