@@ -4,6 +4,11 @@ public class Polygon {
     Point[] vertices;
     int numVertices;
 
+    Polygon(){
+        numVertices = 0;
+        vertices = null;
+    }
+
     Polygon(int num){
         numVertices = num;
         vertices = new Point[num];

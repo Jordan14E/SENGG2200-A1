@@ -2,6 +2,11 @@ public class MyPolygons {
     private Node sentinel;
     private Node current;
 
+    MyPolygons(){
+        Node sentinel = new Node();
+        Node current = null;
+    }
+
     //prepend items into the start of the list
 
     public void prepend(Polygon item){
@@ -51,15 +56,21 @@ public class MyPolygons {
     public void insert(Polygon place, Polygon item){
 
         //move current to sentinel
-
+        reset();
+        //create new Node, add item to new Node
+        Node newNode = new Node(item);
         //loop to find place
+        while(current.getObj() != place) {      //test if current holds place   TODO: operator overloading???
             //move current to next
-            //test if current holds place   TODO: operator overloading???
+            next();
 
+        }
         //link item to place's previous
-
+        current.getPrevious().setNext(newNode);
+        newNode.setPrevious(current.getPrevious());
         //make item place's previous
-
+        newNode.setNext(current);
+        current.setPrevious(newNode);
     }
 
     //step to the next item
@@ -78,8 +89,24 @@ public class MyPolygons {
 
     public Polygon remove(){
         //TODO: ask about having to return polygon
+        //create holding polygon
+        Polygon holding = new Polygon();
+        //move current to sentinel
+        reset();
+        //move current to next
+        next();
+        //set holding polygon to current's item
+        holding = current.getObj();
+        //detach current
+        current.getPrevious().setNext(current.getNext());
+        current.getNext().setPrevious(current.getPrevious());
+        current.setNext(null);
+        current.setPrevious(null);
+        reset();
+        //the detached Node should be deleted by  garbage collector
 
-        return ;
+
+        return holding; //possible break in encapsulation here
     }
 
 }
