@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="working on MyPolygons">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPolygons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPolygons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
+    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="nearly done MyPolygons">
+      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <updated>1646015614907</updated>
       <workItem from="1646015618433" duration="6389000" />
       <workItem from="1646022475196" duration="10000" />
-      <workItem from="1646109976221" duration="7541000" />
+      <workItem from="1646109976221" duration="7839000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Files">
       <created>1646015653144</created>
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646122202990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="nearly done MyPolygons">
+      <created>1646124118322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646124118322</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +144,7 @@
     <MESSAGE value="Polygon closestToOrigin()" />
     <MESSAGE value="Node class" />
     <MESSAGE value="working on MyPolygons" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on MyPolygons" />
+    <MESSAGE value="nearly done MyPolygons" />
+    <option name="LAST_COMMIT_MESSAGE" value="nearly done MyPolygons" />
   </component>
 </project>
