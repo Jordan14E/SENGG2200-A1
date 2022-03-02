@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class Polygon {
+public class Polygon implements ComparePoly{
 
     Point[] vertices;
     int numVertices;
@@ -44,7 +44,7 @@ public class Polygon {
         return result;
     }
 
-    public Point closestToOrigin(){
+    public double closestToOrigin(){
 
         //grab first
         Point holder = vertices[0];
@@ -59,9 +59,25 @@ public class Polygon {
             }
         }
 
-        return holder;
+        return holder.distanceFromOrigin();
     }
 
 
+    public boolean ComesBefore(ComparePoly o) {
 
+        Polygon compare = (Polygon) o;
+
+        double diffArea = compare.area() - this.area();
+
+        diffArea = Math.sqrt(diffArea*diffArea);
+
+        if(this.area() < compare.area() && diffArea / this.area() <= 0.001){
+            return true;
+        }
+        else if(compare.area() < this.area() && diffArea / compare.area() <= 0.001){
+            return true;
+        }
+        else
+            return false;
+    }
 }
