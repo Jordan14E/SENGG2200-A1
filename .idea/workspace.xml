@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="heaps of work">
+    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="starting sorted method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparePoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparePoly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyPolygons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPolygons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25ih3BcVvQbWFIfTLWl8pJ1xlHC" />
   <component name="ProjectViewState">
@@ -70,7 +75,8 @@
       <workItem from="1646125004496" duration="9000" />
       <workItem from="1646183550017" duration="8490000" />
       <workItem from="1646271663581" duration="5256000" />
-      <workItem from="1646283996713" duration="892000" />
+      <workItem from="1646283996713" duration="1522000" />
+      <workItem from="1646285857692" duration="7350000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Files">
       <created>1646015653144</created>
@@ -156,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646278285789</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="starting sorted method">
+      <created>1646285338933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1646285338933</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +185,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting Files" />
@@ -186,7 +198,8 @@
     <MESSAGE value="Might need main. Not sure yet..." />
     <MESSAGE value="ComparePoly interface implemented" />
     <MESSAGE value="heaps of work" />
-    <option name="LAST_COMMIT_MESSAGE" value="heaps of work" />
+    <MESSAGE value="starting sorted method" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting sorted method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,9 +209,14 @@
           <option name="timeStamp" value="5" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a1.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/Polygon.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Polygon.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

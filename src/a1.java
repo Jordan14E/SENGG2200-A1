@@ -23,7 +23,9 @@ public class a1 {
         MyPolygons unsorted = new MyPolygons();
 
         unsorted= unsorted(unsorted,input);
-        System.out.println(unsorted.printing());
+        System.out.println("unsorted list:\n"+unsorted.printing()+"\n");
+        unsorted = sorted(unsorted);
+        System.out.println("sorted list:\n"+unsorted.printing());
 
     }
 
@@ -52,15 +54,14 @@ public class a1 {
         return unsorted;
     }
 
-    public MyPolygons sorted(MyPolygons unsorted){
+    public static MyPolygons sorted(MyPolygons unsorted){
 
         MyPolygons sorted = new MyPolygons();
         Polygon check;
         sorted.append(unsorted.remove());
 
         while(!unsorted.isEmpty()){
-            check = unsorted.remove();
-
+            sorted.inOrder(unsorted.remove());
         }
 
 
@@ -68,3 +69,4 @@ public class a1 {
     }
 
 }
+

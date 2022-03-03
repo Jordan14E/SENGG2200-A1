@@ -89,7 +89,7 @@ public class MyPolygons {
 
     public Polygon remove(){
         //create holding polygon
-        Polygon holding;
+        Polygon holding = null;
         //move current to sentinel
         reset();
         //move current to next
@@ -123,13 +123,35 @@ public class MyPolygons {
         return str;
     }
 
-    public Boolean isEmpty(){
+    public boolean isEmpty(){
         if(sentinel.getNext()==null){
+            return true;
+        }
+        else if(sentinel.getNext().getObj()==null){
             return true;
         }
         else{
             return false;
         }
+    }
+
+    public void inOrder(Polygon item){
+
+        boolean found=false;
+        reset();
+        next();
+        while(!found){
+            if(current.getObj()==null){
+                found = true;
+            }
+            else if(current.getObj().ComesBefore(item)){
+                next();
+            }
+            else{
+                found = true;
+            }
+        }
+        insert(current.getObj(), item);
     }
 
 }
