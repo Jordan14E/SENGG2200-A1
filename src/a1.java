@@ -52,9 +52,19 @@ public class a1 {
         return unsorted;
     }
 
-//    public MyPolygons sorted(MyPolygons unsorted){
-//
-//        return sorted;
-//    }
+    public MyPolygons sorted(MyPolygons unsorted){
+
+        MyPolygons sorted = new MyPolygons();
+        Polygon check;
+        sorted.append(unsorted.remove());
+
+        while(!unsorted.isEmpty()){
+            check = unsorted.remove();
+
+        }
+
+
+        return sorted;
+    }
 
 }

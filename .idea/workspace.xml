@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="ComparePoly interface implemented">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a1.java" afterDir="false" />
+    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="heaps of work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyPolygons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPolygons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +50,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.a1" />
@@ -85,7 +69,8 @@
       <workItem from="1646109976221" duration="8574000" />
       <workItem from="1646125004496" duration="9000" />
       <workItem from="1646183550017" duration="8490000" />
-      <workItem from="1646271663581" duration="4381000" />
+      <workItem from="1646271663581" duration="5256000" />
+      <workItem from="1646283996713" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Files">
       <created>1646015653144</created>
@@ -164,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646189205533</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="heaps of work">
+      <created>1646278285789</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646278285789</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +185,8 @@
     <MESSAGE value="nearly done MyPolygons" />
     <MESSAGE value="Might need main. Not sure yet..." />
     <MESSAGE value="ComparePoly interface implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="ComparePoly interface implemented" />
+    <MESSAGE value="heaps of work" />
+    <option name="LAST_COMMIT_MESSAGE" value="heaps of work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -204,13 +197,8 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/a1.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a1.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="8" />
+          <line>14</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

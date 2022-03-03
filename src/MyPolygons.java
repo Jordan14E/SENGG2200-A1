@@ -87,9 +87,9 @@ public class MyPolygons {
 
     //remove an item from the head of the list
 
-    public String remove(){
+    public Polygon remove(){
         //create holding polygon
-        Polygon holding = new Polygon();
+        Polygon holding;
         //move current to sentinel
         reset();
         //move current to next
@@ -105,7 +105,7 @@ public class MyPolygons {
         //the detached Node should be deleted by  garbage collector
 
 
-        return holding.toString(); //possible break in encapsulation here
+        return holding; //possible break in encapsulation here
     }
 
     public String printing(){
@@ -121,6 +121,15 @@ public class MyPolygons {
         }
 
         return str;
+    }
+
+    public Boolean isEmpty(){
+        if(sentinel.getNext()==null){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
 }
