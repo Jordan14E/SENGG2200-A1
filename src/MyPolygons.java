@@ -3,8 +3,8 @@ public class MyPolygons {
     private Node current;
 
     MyPolygons(){
-        Node sentinel = new Node();
-        Node current = null;
+        sentinel = new Node();
+        current = null;
     }
 
     //prepend items into the start of the list
@@ -16,7 +16,7 @@ public class MyPolygons {
         //create new Node, add item to Node
         Node newNode = new Node(item);
         //link item to sentinel.getNext() if any
-        if(sentinel.getNext().getObj()!=null){
+        if(sentinel.getNext()!=null){
             newNode.setNext(sentinel.getNext());
             sentinel.getNext().setPrevious(newNode);
         }
@@ -38,7 +38,7 @@ public class MyPolygons {
         //create new Node, add item to Node
         Node newNode = new Node(item);
         //link item to sentinel.getPrevious() if any
-        if(sentinel.getPrevious().getObj()!=null){
+        if(sentinel.getPrevious()!=null){
             sentinel.getPrevious().setNext(newNode);
             newNode.setPrevious(sentinel.getPrevious());
         }
@@ -87,8 +87,7 @@ public class MyPolygons {
 
     //remove an item from the head of the list
 
-    public Polygon remove(){
-        //TODO: ask about having to return polygon
+    public String remove(){
         //create holding polygon
         Polygon holding = new Polygon();
         //move current to sentinel
@@ -106,7 +105,22 @@ public class MyPolygons {
         //the detached Node should be deleted by  garbage collector
 
 
-        return holding; //possible break in encapsulation here
+        return holding.toString(); //possible break in encapsulation here
+    }
+
+    public String printing(){
+
+        String str="";
+
+        reset();
+        next();
+        while(current.getObj()!=null){
+            str += current.getObj().toString();
+            str += "\n";
+            next();
+        }
+
+        return str;
     }
 
 }

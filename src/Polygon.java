@@ -9,9 +9,9 @@ public class Polygon implements ComparePoly{
         vertices = null;
     }
 
-    Polygon(int num){
+    Polygon(int num, Point[] verts){
         numVertices = num;
-        vertices = new Point[num];
+        vertices = verts;
     }
 
     public String toString(){
@@ -30,7 +30,7 @@ public class Polygon implements ComparePoly{
         double result = 0;
 
         //loop for summation
-        for(int i=0, a=1; i<numVertices-2; i++, a++){
+        for(int i=0, a=1; i<numVertices-1; i++, a++){
             result+= (vertices[a].getX() + vertices[i].getX())*(vertices[a].getY()-vertices[i].getY());
         }
 
