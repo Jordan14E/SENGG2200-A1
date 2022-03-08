@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="everything working properly">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/ComparePoly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/ComparePoly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/MyPolygons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/MyPolygons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/Polygon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a1.java" afterDir="false" />
+    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="fixed area printing weird.">
+      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,7 @@
       <workItem from="1646271663581" duration="5256000" />
       <workItem from="1646283996713" duration="1522000" />
       <workItem from="1646285857692" duration="7541000" />
-      <workItem from="1646702835307" duration="2242000" />
+      <workItem from="1646702835307" duration="3090000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Files">
       <created>1646015653144</created>
@@ -185,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646293536721</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed area printing weird. commented point class">
+      <created>1646706588408</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1646706588408</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed area printing weird.">
+      <created>1646706618418</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1646706618418</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +225,9 @@
     <MESSAGE value="heaps of work" />
     <MESSAGE value="starting sorted method" />
     <MESSAGE value="everything working properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="everything working properly" />
+    <MESSAGE value="fixed area printing weird. commented point class" />
+    <MESSAGE value="fixed area printing weird." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed area printing weird." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

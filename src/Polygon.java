@@ -1,4 +1,9 @@
 import java.lang.Math;
+
+/***
+ * The Polygon class holds all information and methods related to the storing and processing of polygons through the
+ * program. Each
+ */
 public class Polygon implements ComparePoly{
 
     Point[] vertices;
