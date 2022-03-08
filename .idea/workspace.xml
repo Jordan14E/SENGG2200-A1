@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="starting sorted method">
+    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="everything working properly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparePoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparePoly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPolygons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPolygons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/ComparePoly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/ComparePoly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/MyPolygons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/MyPolygons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/Polygon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,8 @@
       <workItem from="1646183550017" duration="8490000" />
       <workItem from="1646271663581" duration="5256000" />
       <workItem from="1646283996713" duration="1522000" />
-      <workItem from="1646285857692" duration="7350000" />
+      <workItem from="1646285857692" duration="7541000" />
+      <workItem from="1646702835307" duration="2242000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Files">
       <created>1646015653144</created>
@@ -169,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646285338933</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="everything working properly">
+      <created>1646293520259</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1646293520259</updated>
+    </task>
+    <task id="LOCAL-00015" summary="everything working properly">
+      <created>1646293536721</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1646293536721</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +215,8 @@
     <MESSAGE value="ComparePoly interface implemented" />
     <MESSAGE value="heaps of work" />
     <MESSAGE value="starting sorted method" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting sorted method" />
+    <MESSAGE value="everything working properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything working properly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,16 +225,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="5" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Polygon.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Polygon.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -22,20 +22,17 @@ public class a1 {
 
         MyPolygons unsorted = new MyPolygons();
 
-        unsorted= unsorted(unsorted,input);
+        unsorted= Unsorted(unsorted,input);
         System.out.println("unsorted list:\n"+unsorted.printing()+"\n");
         unsorted = sorted(unsorted);
         System.out.println("sorted list:\n"+unsorted.printing());
 
     }
 
-    //will read into the unsorted MyPolygon sin the order of the input
-    public static MyPolygons unsorted(MyPolygons unsorted, Scanner input){
+    //will read into the unsorted MyPolygon in the order of the input
+    public static MyPolygons Unsorted(MyPolygons unsorted, Scanner input){
 
-        //find the P
-//        while(input.hasNextLine()){
-//            System.out.println(input.next());
-//        }
+
         while(input.hasNextLine() && input.next().equals("P")){
             int vertices = input.nextInt();
             Point[] points = new Point[vertices+1];
@@ -57,7 +54,6 @@ public class a1 {
     public static MyPolygons sorted(MyPolygons unsorted){
 
         MyPolygons sorted = new MyPolygons();
-        Polygon check;
         sorted.append(unsorted.remove());
 
         while(!unsorted.isEmpty()){
