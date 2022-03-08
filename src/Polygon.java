@@ -21,7 +21,7 @@ public class Polygon implements ComparePoly{
         for(int i=0; i<numVertices; i++){
             str += vertices[i].toString();
         }
-        str += ": " + area();
+        str += ": " + String.format("%6.2f",area());
         return str;
     }
 
