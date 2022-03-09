@@ -22,7 +22,7 @@ public class a1 {
 
         MyPolygons unsorted = new MyPolygons();
 
-        unsorted= Unsorted(unsorted,input);
+        unsorted= unsorted(unsorted,input);
         System.out.println("unsorted list:\n"+unsorted.printing()+"\n");
         unsorted = sorted(unsorted);
         System.out.println("sorted list:\n"+unsorted.printing());
@@ -30,7 +30,7 @@ public class a1 {
     }
 
     //will read into the unsorted MyPolygon in the order of the input
-    public static MyPolygons Unsorted(MyPolygons unsorted, Scanner input){
+    public static MyPolygons unsorted(MyPolygons unsorted, Scanner input){
 
 
         while(input.hasNextLine() && input.next().equals("P")){
