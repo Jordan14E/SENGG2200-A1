@@ -1,8 +1,8 @@
 import java.lang.Math;
 
 /**
- *  * Author: Jordan Eade
- *  * SENGG 2200 Assessment 1
+ * Author: Jordan Eade
+ * SENGG 2200 Assessment 1
  * The Point class is used to hold all data and methods for a singular cartesian point. Methods include,
  * distanceFromOrigin() and toString() as well as getters for X and Y coordinates.
  */

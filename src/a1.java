@@ -1,3 +1,8 @@
+/**
+ * Author: Jordan Eade
+ * SENGG 2200 Assessment 1
+ */
+
 
 import java.io.File;
 import java.io.FileNotFoundException;

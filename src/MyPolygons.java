@@ -1,3 +1,8 @@
+/**
+ * Author: Jordan Eade
+ * SENGG 2200 Assessment 1
+ */
+
 public class MyPolygons {
     private Node sentinel;
     private Node current;
