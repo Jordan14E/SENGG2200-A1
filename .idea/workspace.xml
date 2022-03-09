@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="started commenting Polygon class">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a5d966c2-17e9-4f6b-8ab0-a1c287214cdb" name="Default Changelist" comment="Commented Polygon class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/a1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/a1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/ComparePoly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/ComparePoly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/MyPolygons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/MyPolygons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SENGG2200-A1/Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SENGG2200-A1/Polygon.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <workItem from="1646702835307" duration="4184000" />
       <workItem from="1646716058733" duration="608000" />
       <workItem from="1646720404980" duration="37000" />
-      <workItem from="1646792994111" duration="3546000" />
+      <workItem from="1646792994111" duration="7099000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Files">
       <created>1646015653144</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646711539583</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Commented Polygon class">
+      <created>1646799931331</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1646799931331</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +261,8 @@
     <MESSAGE value="fixed area printing weird. commented point class" />
     <MESSAGE value="fixed area printing weird." />
     <MESSAGE value="started commenting Polygon class" />
-    <option name="LAST_COMMIT_MESSAGE" value="started commenting Polygon class" />
+    <MESSAGE value="Commented Polygon class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented Polygon class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
