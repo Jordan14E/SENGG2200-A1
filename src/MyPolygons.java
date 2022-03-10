@@ -128,8 +128,10 @@ public class MyPolygons {
 
 
     /**
-     * The remove method is used to return a polygon and then delete it from the data structure.
-     * @return
+     * The remove method is used to return the polygon  at the start of the list and then delete it from the
+     * data structure. It does this by disconnecting all references to the object and allowing the java garbage
+     * collector to delete the memory on its next sweep.
+     * @return Polygon that has been removed
      */
     public Polygon remove(){
         //create holding polygon
@@ -146,18 +148,25 @@ public class MyPolygons {
         current.setNext(null);
         current.setPrevious(null);
         reset();
-        //the detached Node should be deleted by  garbage collector
+        //the detached Node should be deleted by the garbage collector
 
 
-        return holding; //possible break in encapsulation here
+        return holding;
     }
 
+    /**
+     * The printing() method is used to call the toString() method of every polygon in the MyPolygons
+     * data structure. It does this using a for loop to move through the list while appending each toString()
+     * return to a string
+     * @return string that is the collection of all polygons in the data structure
+     */
     public String printing(){
 
         String str="";
-
+        //move to start of linked list
         reset();
         next();
+        //loop through data structure and concatenate each polygon's toString() result
         while(current.getObj()!=null){
             str += current.getObj().toString();
             str += "\n";
@@ -167,10 +176,17 @@ public class MyPolygons {
         return str;
     }
 
+    /**
+     * The isEmpty() method is used to find whether the data structure is empty. If sentinel is the only node
+     * in the data structure then isEmpty() will return true
+     * @return
+     */
     public boolean isEmpty(){
+        //if sentinel has no next node
         if(sentinel.getNext()==null){
             return true;
         }
+        //if sentinel's next node has no object (it will be a sentinel)
         else if(sentinel.getNext().getObj()==null){
             return true;
         }
@@ -179,15 +195,25 @@ public class MyPolygons {
         }
     }
 
+    /**
+     * The inOrder() method is used to find teh correct position in the data structure for a polygon. It uses
+     * the comesBefore() method to compare the polygons and moves through the list until it finds a polygon in the
+     * structure that is larger. It then calls the insert() method.
+     * @param item item to be added to the list in order
+     */
     public void inOrder(Polygon item){
 
         boolean found=false;
+        //moving to start of list
         reset();
         next();
+        //while still looking for position
         while(!found){
+            //if current's object is null, it has reached the end of the list and needs to be added to the end of the list
             if(current.getObj()==null){
                 found = true;
             }
+            //if current comes before the item in order then move to next item
             else if(current.getObj().ComesBefore(item)){
                 next();
             }
